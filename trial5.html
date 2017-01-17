@@ -1,0 +1,43 @@
+<!doctype HTML>
+<html>
+<head>
+    <title>Neighboring Boxes</title>
+    <style>
+    body {
+        margin: 0;
+    }
+    div.black-box {
+        margin-top: 50px;
+        margin-left: 50px;
+        height: 100px;
+        width: 100px;
+        display: inline-block;
+        background-color: black;
+    }
+    div.horizontal-div {
+        
+        height: 200px;
+        width: 350px;
+    }
+
+    #blue-div {
+        background-color: blue;
+    }
+
+    #red-div {
+        background-color: red;
+    }
+
+    </style>
+</head>
+<body>
+    <div class="horizontal-div" id="red-div">
+        <div class="black-box" id="red-background"></div>
+        <div class="black-box" id="red-background"></div>
+    </div>
+    <div class="horizontal-div" id="blue-div">
+        <div class="black-box" id="blue-background"></div>
+        <div class="black-box" id="blue-background"></div>
+    </div>
+</body>
+</html>
