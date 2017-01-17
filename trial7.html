@@ -1,0 +1,69 @@
+<!doctype HTML>
+<html>
+<head>
+    <title>Vertical Aligning</title>
+    <style>
+    body {
+        margin: 0;
+    }
+    div.top-box {
+        margin-top: 6px;
+        margin-left: 6px;
+        height: 118px;
+        width: 192px;
+        display: inline-block;
+        background-color: #cccccc;
+    }
+    div.middle-large{
+        margin-top: 6px;
+        margin-left: 6px;
+        height: 100px;
+        width: 142.5px;
+        display: inline-block;
+        background-color: #cccccc;
+
+    }
+    div.middle-small{
+        margin-top: 6px;
+        margin-left: 6px;
+        height: 75px;
+        width: 142.5px;
+        display: inline-block;
+        background-color: #cccccc;
+        vertical-align: top;
+
+    }
+    div.outer-box {
+
+        margin: 10px;
+        height: 130px;
+        width: 600px;
+        background-color: #555555;
+    }
+
+    #blue-div {
+        background-color: blue;
+    }
+
+    #red-div {
+        background-color: red;
+    }
+
+    </style>
+</head>
+<body>
+    <h1>AAAAAHHHHHH</h1>
+    <div class="outer-box">
+        <div class="top-box"></div><div class="top-box"></div><div class="top-box"></div>                                 
+    </div>
+    <div class="outer-box">
+        <div class="middle-large"></div><div class="middle-small"></div><div class="middle-large"></div><div class="middle-small"></div>
+    </div>
+    <div class="outer-box">
+        <div class="black-box"></div>
+        <div class="black-box"></div>
+    </div>
+
+
+</body>
+</html>
